@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1585646128434" createdUser="sysadmin" id="-3b54a6be:1712fbae7b5:-7665:-1323507314:-332410441" selfDescribing="Alexa Skill API" type="parameterized_url_schema" updatedTimestamp="1585646128434" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="1585646128399" lastSynced="1585646128434" sourceid="-3b54a6be:1712fbae7b5:-7665"/>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig schemaSourceTemplateName="URL">
+      <schemaSourceConfig name="Alexa Skill API">
+         <url templateName="POST /Test/alexa-resource">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Test" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="alexa-resource" parameterName="" type="7"/>
+         </url>
+      </schemaSourceConfig>
+   </resourceConfig>
+</editableResource>

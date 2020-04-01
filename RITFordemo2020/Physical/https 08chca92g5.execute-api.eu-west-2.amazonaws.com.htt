@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1585646128496" createdUser="sysadmin" id="-3b54a6be:1712fbae7b5:-7665:2037203835:1544155186" selfDescribing="https 08chca92g5.execute-api.eu-west-2.amazonaws.com" type="http_transport" updatedTimestamp="1585646128496" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="PHYSICALHTTPS08chca92g5.execute-api.eu-west-2.amazonaws.com" lastSynced="1585646128496" sourceid="-3b54a6be:1712fbae7b5:-7665">
+      <sourcepath path="HTTPS"/>
+      <sourcepath path="08chca92g5.execute-api.eu-west-2.amazonaws.com"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!8d92" credPreemptive="false" credType="0" credUser="" httpHost="08chca92g5.execute-api.eu-west-2.amazonaws.com" httpNtlmDomain="" httpPort="443" httpProxyHost="" httpProxyPassword="#com.ghc.1!73ed" httpProxyPort="" httpProxyUsername="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" useSsl="true" version="4">
+         <kerberos Anon="false" CStyle="Username / Password" Conf="false" Custom="true" Enabled="false" Integ="false" MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+         <oauth clientassertion="" clientid="" clientsecret="" enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>

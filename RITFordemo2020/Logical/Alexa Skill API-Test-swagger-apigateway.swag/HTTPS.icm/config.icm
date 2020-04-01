@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1585646128425" createdUser="sysadmin" id="-3b54a6be:1712fbae7b5:-7665:-302160087:408339756" type="infrastructure_component_resource" updatedTimestamp="1585646128425" updatedUser="sysadmin" version="1.1">
+   <syncdetails compare="LOGICALHTTPS08chca92g5.execute-api.eu-west-2.amazonaws.com" lastSynced="1585646128425" sourceid="-3b54a6be:1712fbae7b5:-7665">
+      <sourcepath path="HTTPS"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="http_transport">
+      <recordingSettings colour="124,199,255"/>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1585646128471" createdUser="sysadmin" id="-3b54a6be:1712fbae7b5:-7665:-291144058:-807255066" type="operation_resource" updatedTimestamp="1585646128471" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="POST /Test/alexa-resource" lastSynced="1585646128471" sourceid="-3b54a6be:1712fbae7b5:-7665">
+      <sourcepath path="paths"/>
+      <sourcepath path="/Test/alexa-resource"/>
+      <sourcepath path="post"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig avgTime="0" color="110,237,216" dependencies="-3b54a6be:1712fbae7b5:-7665:-302160087:408339756,-3b54a6be:1712fbae7b5:-7665:-1323507314:-332410441" invokeDynamicFormatterID="http.text.message.type" invokeEndFormatterID="HTTP_Message" invokeEndTransportID="-3b54a6be:1712fbae7b5:-7665:-302160087:408339756" invokeFormatterID="HTTP_Message" invokeTransportID="-3b54a6be:1712fbae7b5:-7665:-302160087:408339756" maxTime="0" mepEndSchemaID="-3b54a6be:1712fbae7b5:-7665:-1323507314:-1551637993" mepEndSchemaNodeFormatter="JSON.nodeformatter" mepEndSchemaroot="POST /Test/alexa-resource_200[Object]" mepEndUsed="true" mepStartSchemaID="-3b54a6be:1712fbae7b5:-7665:-1323507314:-332410441" mepStartSchemaNodeFormatter="rest_nodeformatter" mepStartSchemaroot="POST /Test/alexa-resource" mepType="IN_OUT" minTime="0" stubDynamicFormatterID="http.text.message.type" stubFormatterID="HTTP_Message" stubTransportID="-3b54a6be:1712fbae7b5:-7665:-302160087:408339756">
+      <invokeHeaderNode meTy="Message" type="12" version="1.2">
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="String" name="MessageType" type="7" value="http.text.message.type" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="http.text.message.type" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="Method" type="7" value="POST" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="POST" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="URL" type="7" value="" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+            <fieldActionGroup>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+               </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="Version" type="7" value="" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                  </fieldAction>
+               </fieldActionGroup>
+               <_c meTy="String" name="Accept" type="7" value="application/json" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="0">
+                        <fieldAction exp="application/json" type="0"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </_c>
+            </_c>
+            <_c meTy="Boolean" name="followRedirects" type="8" value="true" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction exp="true" type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+         </_c>
+      </invokeHeaderNode>
+      <stubHeaderConfig>
+         <_c MessageType="http.text.message.type" Method="POST" URL="/Test/alexa-resource" allowSubPath="false" consumerType="Participate" filterHeaders="true" filterMethod="true" filterResourcePath="true">
+            <filterHeadersList>
+               <header disabled="true" name="Accept" type="7" value="application/json"/>
+            </filterHeadersList>
+         </_c>
+      </stubHeaderConfig>
+   </resourceConfig>
+</editableResource>

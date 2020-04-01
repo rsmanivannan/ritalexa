@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584098039370" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7f6a" type="environment_resource" updatedTimestamp="1585646128411" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig isOverridingSecretsNamespace="true" overridingSecretsNamespace="Webinar_Secrets">
+      <environmentVariable evdescription="" key="Swagger Petstore/api_key" value="secret://API_KEY_PETSTORE"/>
+      <evbindings>
+         <evbinding evLogicalItemId="-25fc5cd5:170d399d4bf:-7c49:-1145079660:408339756" evPhysicalItemId="-25fc5cd5:170d399d4bf:-7c49:-307382398:1544155186"/>
+         <evbinding evLogicalItemId="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756" evPhysicalItemId="-25fc5cd5:170d399d4bf:-7c49:-114729449:1544155186"/>
+         <evbinding evLogicalItemId="-25fc5cd5:170d399d4bf:-7ec7" evPhysicalItemId="-25fc5cd5:170d399d4bf:-7ec6"/>
+         <evbinding evLogicalItemId="-3b54a6be:1712fbae7b5:-7665:-302160087:408339756" evPhysicalItemId="-3b54a6be:1712fbae7b5:-7665:2037203835:1544155186"/>
+      </evbindings>
+   </resourceConfig>
+</editableResource>

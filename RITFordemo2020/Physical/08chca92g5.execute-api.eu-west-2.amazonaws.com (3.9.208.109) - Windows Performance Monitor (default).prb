@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1585678968520" createdUser="sysadmin" id="77a11110:17131d4c9bb:-7e4a" selfDescribing="08chca92g5.execute-api.eu-west-2.amazonaws.com (3.9.208.109) - Windows Performance Monitor (default)" type="probe_resource" updatedTimestamp="1585678968520" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="77a11110:17131d4c9bb:-7e53" probeID="ghviewer.plugin.perfmon">
+      <PerfMonDatasource configuration="default"/>
+   </resourceConfig>
+</editableResource>
